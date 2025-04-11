@@ -14,15 +14,17 @@ const Home = () => {
     <Hero/>
 
         </div>
-        <div className=''>
-          <StatsCard/>
-        </div>
+        
 
    
     </div>
-    <div className='mt-20'>
-<QuickSpaceFooter/>
+    <div className=''>
+          <StatsCard/>
         </div>
+    <div className='mt-20'>
+  <QuickSpaceFooter/>
+        </div>
+    
 
     </>
   )
