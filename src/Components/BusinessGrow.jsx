@@ -34,7 +34,7 @@ export default function BusinessGrow() {
        
      
         {cardData.map((cardDatas)=>(
- <div className="bg-white shadow-lg rounded-lg p-8 flex-1 flex flex-col items-center">
+ <div className="bg-white shadow-lg rounded-lg p-8 flex-1 flex flex-col items-center transform transition-transform duration-300 hover:scale-105">
  <div className=" mb-6">
  <img src={cardDatas.icon} alt="" />
  </div>
