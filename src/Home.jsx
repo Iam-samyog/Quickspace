@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import QuickSpaceFooter from './QuickSpaceFooter'
 import StatsCard from './Components/StatsCard '
 import Partner from './Components/Partner'
+import BusinessGrow from './Components/BusinessGrow'
 
 const Home = () => {
   return (
@@ -16,12 +17,17 @@ const Home = () => {
 
         </div>
         <div className='my-20'>
-          <Partner/>
+        <Partner/>
+          
+        </div>
+        <div className="my-30">
+        <BusinessGrow/>
         </div>
         
 
    
     </div>
+    
     <div className=''>
           <StatsCard/>
         </div>
