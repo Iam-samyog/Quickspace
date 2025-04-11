@@ -9,7 +9,7 @@ const Home = () => {
     <div className="container mx-auto max-w-[1350px]">
 
         <Navbar/>
-        <div className='my-20'>
+        <div className=''>
     <Hero/>
 
         </div>
