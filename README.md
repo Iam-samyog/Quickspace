@@ -1,12 +1,21 @@
-# React + Vite
+# 🚀 Quickspace – SaaS Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quickspace is a sleek and responsive SaaS agency landing page built with **React** and **Tailwind CSS**. It’s designed to help tech startups and digital service agencies showcase their services, attract clients, and build credibility online.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ⚡ Fast and responsive design
+- 🎯 Clean and modern UI/UX
+- 💼 Service and feature sections
+- 📞 Call-to-action buttons
+- 🔧 Easy to customize and scale
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React** – UI Components & SPA structure  
+- **Tailwind CSS** – Utility-first styling  
+- **Vite** *(or Create React App)* – Lightning fast dev environment *(adjust if needed)*
