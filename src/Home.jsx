@@ -5,6 +5,7 @@ import QuickSpaceFooter from './QuickSpaceFooter'
 import StatsCard from './Components/StatsCard '
 import Partner from './Components/Partner'
 import BusinessGrow from './Components/BusinessGrow'
+import BankingApp from './Components/BankingApp'
 
 const Home = () => {
   return (
@@ -22,6 +23,9 @@ const Home = () => {
         </div>
         <div className="my-30">
         <BusinessGrow/>
+        </div>
+        <div className="my-30">
+          <BankingApp/>
         </div>
         
 
