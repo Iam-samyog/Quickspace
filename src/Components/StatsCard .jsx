@@ -6,9 +6,8 @@ export default function StatsCard(){
       <div className="container mx-auto  max-w-[1350px] px-4 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 primary-font">We Help To GrowYour Business</h1>
         
-        <p className="max-w-3xl mx-auto text-lg mb-16 opacity-90">
-          Quisque fermentum porta tincidunt. Interdum semper. Pellentesque
-          facilisis augue dolor mollis suscipit erat libero fermentum.
+        <p className="max-w-3xl mx-auto text-lg mb-18 opacity-90">
+        Quickspace is your all-in-one SaaS solution to build, launch, and manage your online presence effortlessly. From automation to analytics, we help you scale smarter and faster.
         </p>
         
         <div className="flex flex-wrap justify-center gap-8 md:gap-[140px] lg:gap-[232px]">

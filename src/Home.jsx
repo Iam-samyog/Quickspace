@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import QuickSpaceFooter from './QuickSpaceFooter'
 import StatsCard from './Components/StatsCard '
+import Partner from './Components/Partner'
 
 const Home = () => {
   return (
@@ -13,6 +14,9 @@ const Home = () => {
         <div className=''>
     <Hero/>
 
+        </div>
+        <div className='my-20'>
+          <Partner/>
         </div>
         
 
