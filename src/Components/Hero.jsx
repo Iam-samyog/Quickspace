@@ -99,7 +99,9 @@ const Hero = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 pr-8 relative">
-            
+            <div className="absolute -top-[310px] -left-5 z-2 w-[300px] h-[240.32] "><img src='/public/img/Graphs/Card 01.png'/></div>
+            <div  className="absolute -bottom-[50px] left-[250px]  z-1 w-[316px] h-[300px]"><img src='/public/img/Graphs/Card 02.png'/></div>
+            <div  className="absolute -bottom-[250px] left-[100px] w-[353.97px] h-[353.97px]" ><img src='/public/img/Graphs/Card 03.png'/></div>
           </div>
           
         </section>
