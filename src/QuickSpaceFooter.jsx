@@ -1,32 +1,36 @@
 import React from 'react';
 
 export default function QuickSpaceFooter() {
+  const companyLinks = ["Features", "About", "Service", "Team"];
+  const helpLinks = ["FAQ", "Blog", "Contact Us", "Support"];
+  const resourcesLinks = ["Guides and resources", "Team", "Tools", "Support"];
+ 
   return (
-    <footer className="bg-gray-900 text-white py-16">
+    <footer className="bg-gray-900 text-white py-16 secondary-font">
       <div className="container mx-auto max-w-[1350px] px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
           {/* Logo and Contact Info Column */}
-          <div className="col-span-1 lg:col-span-1">
+          <div className="col-span-2 lg:col-span-2 ">
             <div className="mb-6">
-              <h2 className="text-2xl font-bold text-white">••• QuickSpace</h2>
+              <img src="/img/Logo (1).png"/>
             </div>
             <p className="text-gray-400 mb-6">
-              Phasellus pulvinar porta turpis sit amet
-              <br />
-              facilis sapien bibendum eu praesent massa.
+            From idea to impact — we scale your vision with data-driven strategies.
+
+
             </p>
             <div className="flex items-center mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-3 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              <span className="text-gray-400">(888) 1234-5678</span>
+              <span className="text-gray-400">+977 9765409928</span>
             </div>
             <div className="flex items-center mb-8">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-3 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
               </svg>
-              <span className="text-gray-400">info@example.com</span>
+              <span className="text-gray-400">msamyog37@gmail.com</span>
             </div>
             <div className="flex space-x-4 mb-6">
               <a href="#" className="border border-gray-700 inline-flex items-center px-4 py-2 rounded-lg">
@@ -51,37 +55,39 @@ export default function QuickSpaceFooter() {
           </div>
 
           {/* Useful Links Column */}
-          <div className="col-span-1 ">
-            <h3 className="text-lg font-semibold mb-6">Useful Links</h3>
+          <div className="col-span-2 ">
+          <div className="flex flex-col md:flex-row md:gap-[50px] gap-12 ">
+            <div className="w-full md:w-1/3">
+            <h3 className="text-lg font-semibold mb-6 primary-font">Useful Links</h3>
             <ul className="space-y-4">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Service</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Team</a></li>
+              {companyLinks.map(companyLink=>(
+                 <li><a href="#" className="text-gray-400 hover:text-white hover:border-b-2 hover:border-white transition-colors">{companyLink}</a></li>
+              ))}
+            
+             
             </ul>
+            </div>
+            <div className="w-full md:w-1/3">
+            <h3 className="text-lg font-semibold mb-6 primary-font">Help & Support</h3>
+            <ul className="space-y-4">
+            {helpLinks.map(helpLink=>(
+                 <li><a href="#" className="text-gray-400 hover:text-white hover:border-b-2 hover:border-white transition-colors">{helpLink}</a></li>
+              ))}
+            </ul>
+            </div>
+            <div className="w-full md:w-1/3">
+            <h3 className="text-lg font-semibold mb-6 primary-font">Resources</h3>
+            <ul className="space-y-4">
+            {resourcesLinks.map(resourcesLink=>(
+                 <li><a href="#" className="text-gray-400 hover:text-white hover:border-b-2 hover:border-white transition-colors">{resourcesLink}</a></li>
+              ))}
+            </ul>
+            </div>
+            </div>
           </div>
 
           {/* Help & Support Column */}
-          <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-6">Help & Support</h3>
-            <ul className="space-y-4">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Support</a></li>
-            </ul>
-          </div>
-
-          {/* Resources Column */}
-          <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-6">Resources</h3>
-            <ul className="space-y-4">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Guides and resources</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Team</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Tools</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Support</a></li>
-            </ul>
-          </div>
+         
         </div>
 
         {/* Bottom Section with Copyright and Social Icons */}
