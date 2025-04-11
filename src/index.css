@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+
+.primary-font{
+  font-family: "Space Grotesk", sans-serif;
+}
+.secondary-font{
+  font-family: "Inter", sans-serif;
+}
+.primary-color{
+  color: #3921F5;
+}
+.secondary-color{
+  color:#4F4F4F;
+}
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes floatDownUp {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+.float-up {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+.float-down {
+  animation: floatDownUp 3s ease-in-out infinite;
+}
