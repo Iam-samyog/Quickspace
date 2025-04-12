@@ -6,6 +6,7 @@ import StatsCard from './Components/StatsCard '
 import Partner from './Components/Partner'
 import BusinessGrow from './Components/BusinessGrow'
 import BankingApp from './Components/BankingApp'
+import TestimonialsSection from './Components/TestimonialsSection'
 
 const Home = () => {
   return (
@@ -35,6 +36,9 @@ const Home = () => {
     <div className=''>
           <StatsCard/>
         </div>
+    <div className='my-20'>
+      <TestimonialsSection/>
+    </div>
     <div className='mt-20'>
   <QuickSpaceFooter/>
         </div>
