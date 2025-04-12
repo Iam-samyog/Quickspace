@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Components/Navbar'
 import ContactUs from './Components/ContactUs'
 import PricingSection from './PricingSection'
+import QuickSpaceFooter from './QuickSpaceFooter'
 
 const Price = () => {
   return (
@@ -12,7 +13,7 @@ const Price = () => {
       <ContactUs/>
     </div>
     <div className='mt-20'>
-        <Footer/>
+        <QuickSpaceFooter/>
     </div>
     </>
   )
