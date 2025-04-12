@@ -37,12 +37,13 @@ const Home = () => {
     <div className=''>
           <StatsCard/>
         </div>
-    <div className='my-20'>
-      <TestimonialsSection/>
-    </div>
-    <div className="my-20">
+        <div className="mt-10 md:mt-20">
     <ContactUs/>
     </div>
+    <div className='mb-25 md:mb-25'>
+      <TestimonialsSection/>
+    </div>
+   
     <div className='mt-20'>
   <QuickSpaceFooter/>
         </div>

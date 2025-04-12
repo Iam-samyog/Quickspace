@@ -24,7 +24,7 @@ export default function TestimonialsSection() {
     ];
   
     return (
-      <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8 secondary-font">
+      <div className="max-w-7xl mx-auto px-4 py-10 sm:px-6 lg:px-8 secondary-font">
         {/* Heading Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4 primary-font">What People Say</h2>
