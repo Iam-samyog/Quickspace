@@ -222,21 +222,21 @@ const Hero = () => {
         <div className="w-full md:w-1/2 relative h-[400px] sm:h-[450px] md:h-[500px] lg:h-[550px]">
   <div className="">
     <img 
-      src='/public/img/Graphs/Card 01.png' 
+      src='/img/Graphs/Card 01.png' 
       className="object-contain absolute top-0 md:-top-2 lg:-top-8 xl:-top-10 left-0 md:-left-2 z-10 w-[280px] h-[180px] sm:w-[220px] sm:h-[180px] md:w-[250px] md:h-[220px] lg:w-[340px] lg:h-[280px] twinkle-1 " 
       alt="Card 1" 
     />
   </div>
   <div className="">
     <img 
-      src='/public/img/Graphs/Card 02.png' 
+      src='/img/Graphs/Card 02.png' 
       className="object-contain absolute bottom-[140px] sm:bottom-[140px] md:bottom-48 right-15 sm:right-[130px] md:left-[180px] lg:left-[250px] z-20 w-[200px] h-[200px] sm:w-[250px] sm:h-[230px] md:w-[280px] md:h-[260px] lg:w-[316px] lg:h-[300px] twinkle-2" 
       alt="Card 2" 
     />
   </div>
   <div className="">
     <img 
-      src='/public/img/Graphs/Card 03.png' 
+      src='/img/Graphs/Card 03.png' 
       className="object-contain absolute -bottom-2 sm:bottom-1 md:-bottom-2 lg:bottom-0 left-20 sm:left-20 md:left-24 z-0 w-[240px] h-[280px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] lg:w-[353px] lg:h-[353px] twinkle-3" 
       alt="Card 3" 
     />
