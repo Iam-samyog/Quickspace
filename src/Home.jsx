@@ -7,6 +7,7 @@ import Partner from './Components/Partner'
 import BusinessGrow from './Components/BusinessGrow'
 import BankingApp from './Components/BankingApp'
 import TestimonialsSection from './Components/TestimonialsSection'
+import ContactUs from './Components/ContactUs'
 
 const Home = () => {
   return (
@@ -38,6 +39,9 @@ const Home = () => {
         </div>
     <div className='my-20'>
       <TestimonialsSection/>
+    </div>
+    <div className="my-20">
+    <ContactUs/>
     </div>
     <div className='mt-20'>
   <QuickSpaceFooter/>
