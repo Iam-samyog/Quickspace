@@ -83,12 +83,12 @@ export default function PricingSection() {
   };
 
   return (
-    <div className="bg-gradient-to-b from-gray-50 to-white py-20">
+    <div className="bg-gradient-to-b from-gray-50 to-white py-20 secondary-font ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-base font-semibold text-indigo-600 tracking-wide uppercase">Pricing</h2>
-          <h1 className="mt-2 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
+          <h2 className="text-base font-semibold text-indigo-600 tracking-wide uppercase ">Pricing</h2>
+          <h1 className="primary-font mt-2 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
             Choose the perfect plan for your needs
           </h1>
           <p className="mt-5 max-w-xl mx-auto text-xl text-gray-500">
@@ -113,7 +113,7 @@ export default function PricingSection() {
                 } relative px-4 py-2 rounded-md text-sm font-medium transition-all duration-200`}
               >
                 Yearly
-                <span className="absolute -top-2 -right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full">
+                <span className="absolute -top-3 -right-5 bg-green-500 text-white text-xs px-2 py-1 rounded-full">
                   Save 20%
                 </span>
               </button>
