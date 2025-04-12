@@ -21,10 +21,10 @@ const Home = () => {
         <Partner/>
           
         </div>
-        <div className="my-30">
+        <div className="mt-30">
         <BusinessGrow/>
         </div>
-        <div className="my-30">
+        <div className="mb-30">
           <BankingApp/>
         </div>
         

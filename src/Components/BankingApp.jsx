@@ -32,34 +32,34 @@ const BankingApp = () => {
 
   return (
     <>
-      <div className="container mx-auto max-w-[1350px]">
-        <div className="flex items-center space-between">
-        <div className='relative w-[800px] h-[700px]'>
-            <div className='absolute top-5 -left-3 twinkle-1 '>
+      <div className="container mx-auto  px-4 py-8 max-w-[1350px]">
+        <div className="flex items-center space-between gap-4">
+        <div className='relative  w-full lg:w-1/2 h-[400px] md:h-[500px] lg:h-[700px] hidden md:block'>
+            <div className='absolute top-5 left-24 twinkle-1 '>
     <img 
       src="/img/Graphs/Wallet Screen.png" 
       alt="Wallet Screen" 
-      className="w-[700px] h-[700px] object-contain"
+      className=" md:max-w-[500px] lg:max-w-[700px] h-[700px] object-contain"
     />
   </div>
   <div className='absolute bottom-55 left-[400px] twinkle-2 '>
     <img 
       src="/img/Graphs/M widget.png" 
       alt="Wallet Screen 1" 
-      className="w-[350px] h-[350px] object-contain"
+      className="h-auto max-w-[200px] md:max-w-[280px] lg:max-w-[350px] md:h-[350px] object-contain"
     />
   </div>
   <div className='absolute bottom-30 left-[400px] twinkle-3 '>
     <img 
       src="/img/Graphs/Group 2490.png" 
       alt="Group 2490" 
-      className="w-[360px] h-[250px] object-contain"
+      className="max-w-[200px] md:max-w-[280px] lg:max-w-[360px] h-[250px] object-contain"
     />
   </div>
 </div>
-          <div>
+<div className="w-full lg:w-1/2">
             <div className="max-w-lg mx-auto p-4 bg-white secondary-font">
-              <h1 className="text-4xl primary-font font-bold text-gray-900 mb-2">
+              <h1 className="text-3xl md:text-4xl primary-font font-bold text-gray-900 mb-2">
                 Performance Is The Key To Most People Achieving A Better Future
               </h1>
               <p className="text-gray-600 mb-6">
@@ -73,13 +73,13 @@ const BankingApp = () => {
                       onClick={() => toggleAccordion(index)}
                       className="flex justify-between items-center w-full py-4 text-left"
                     >
-                      <h3 className="text-xl font-medium text-gray-900 primary-font">
+                      <h3 className="text-lg md:text-xl font-medium text-gray-900 primary-font">
                         {item.question}
                       </h3>
                       {openIndex === index ? (
-                        <Minus className="text-blue-600" size={24} />
+                        <Minus className="text-blue-600 flex-shrink-0" size={24} />
                       ) : (
-                        <Plus className="text-blue-600" size={24} />
+                        <Plus className="text-blue-600 flex-shrink-0" size={24} />
                       )}
                     </button>
 
