@@ -24,8 +24,7 @@ export default function BusinessGrow() {
       {/* Header Section */}
       <h1 className="text-4xl font-bold text-gray-800 mb-4 primary-font">How To Grow Your Business</h1>
       <p className="text-gray-600 max-w-lg mx-auto mb-16">
-        Class aptent taciti sociosqu ad litora torquen conubia nostramase
-        inceptos himenaeo. Phasellus metus nisi euismod eget lorem.
+      Discover proven strategies to scale effectively, boost revenue, and stand out in a crowded market.
       </p>
 
       {/* Cards Section */}
